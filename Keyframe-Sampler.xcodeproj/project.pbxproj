@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C52BF81DED6C8500345102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C52BF71DED6C8500345102 /* AppDelegate.swift */; };
+		39C52BFA1DED6C8500345102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C52BF91DED6C8500345102 /* ViewController.swift */; };
+		39C52BFD1DED6C8500345102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C52BFB1DED6C8500345102 /* Main.storyboard */; };
+		39C52BFF1DED6C8500345102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C52BFE1DED6C8500345102 /* Assets.xcassets */; };
+		39C52C021DED6C8500345102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C001DED6C8500345102 /* LaunchScreen.storyboard */; };
+		39C52C0D1DED6C8500345102 /* Keyframe_SamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C0C1DED6C8500345102 /* Keyframe_SamplerTests.swift */; };
+		39C52C181DED6C8500345102 /* Keyframe_SamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C171DED6C8500345102 /* Keyframe_SamplerUITests.swift */; };
+		39C52C591DED765F00345102 /* .valueObjectConfig in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C281DED765F00345102 /* .valueObjectConfig */; };
+		39C52C5A1DED765F00345102 /* KFVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C2A1DED765F00345102 /* KFVector.m */; };
+		39C52C5B1DED765F00345102 /* KFVector.value in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C2B1DED765F00345102 /* KFVector.value */; };
+		39C52C5C1DED765F00345102 /* KFVectorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C2D1DED765F00345102 /* KFVectorAnimation.m */; };
+		39C52C5D1DED765F00345102 /* KFVectorAnimation.value in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C2E1DED765F00345102 /* KFVectorAnimation.value */; };
+		39C52C5E1DED765F00345102 /* KFVectorAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C301DED765F00345102 /* KFVectorAnimationGroup.m */; };
+		39C52C5F1DED765F00345102 /* KFVectorAnimationGroup.value in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C311DED765F00345102 /* KFVectorAnimationGroup.value */; };
+		39C52C601DED765F00345102 /* KFVectorAnimationKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C331DED765F00345102 /* KFVectorAnimationKeyValue.m */; };
+		39C52C611DED765F00345102 /* KFVectorAnimationKeyValue.value in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C341DED765F00345102 /* KFVectorAnimationKeyValue.value */; };
+		39C52C621DED765F00345102 /* KFVectorFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C361DED765F00345102 /* KFVectorFeature.m */; };
+		39C52C631DED765F00345102 /* KFVectorFeature.value in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C371DED765F00345102 /* KFVectorFeature.value */; };
+		39C52C641DED765F00345102 /* KFVectorFeatureKeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C391DED765F00345102 /* KFVectorFeatureKeyFrame.m */; };
+		39C52C651DED765F00345102 /* KFVectorFeatureKeyFrame.value in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C3A1DED765F00345102 /* KFVectorFeatureKeyFrame.value */; };
+		39C52C661DED765F00345102 /* KFVectorGradientEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C3C1DED765F00345102 /* KFVectorGradientEffect.m */; };
+		39C52C671DED765F00345102 /* KFVectorGradientEffect.value in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C3D1DED765F00345102 /* KFVectorGradientEffect.value */; };
+		39C52C681DED765F00345102 /* fb-copyright-header-comment.js in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C3F1DED765F00345102 /* fb-copyright-header-comment.js */; };
+		39C52C691DED765F00345102 /* KFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C421DED765F00345102 /* KFUtilities.m */; };
+		39C52C6A1DED765F00345102 /* KFVectorAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C451DED765F00345102 /* KFVectorAnimationLayer.m */; };
+		39C52C6B1DED765F00345102 /* KFVectorBitmapFeatureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C471DED765F00345102 /* KFVectorBitmapFeatureLayer.m */; };
+		39C52C6C1DED765F00345102 /* KFVectorFeatureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C491DED765F00345102 /* KFVectorFeatureLayer.m */; };
+		39C52C6D1DED765F00345102 /* KFVectorGradientFeatureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C4C1DED765F00345102 /* KFVectorGradientFeatureLayer.m */; };
+		39C52C6E1DED765F00345102 /* KFVectorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C4E1DED765F00345102 /* KFVectorLayer.m */; };
+		39C52C6F1DED765F00345102 /* KFVectorLayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C501DED765F00345102 /* KFVectorLayerHelper.m */; };
+		39C52C701DED765F00345102 /* KFVectorBezierPathsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C531DED765F00345102 /* KFVectorBezierPathsHelper.m */; };
+		39C52C711DED765F00345102 /* KFVectorParsingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C551DED765F00345102 /* KFVectorParsingHelper.m */; };
+		39C52C721DED765F00345102 /* KFVectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C52C581DED765F00345102 /* KFVectorView.m */; };
+		39C52C771DED7A9A00345102 /* sample_logo.json in Resources */ = {isa = PBXBuildFile; fileRef = 39C52C761DED7A9A00345102 /* sample_logo.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39C52C091DED6C8500345102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C52BEC1DED6C8500345102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C52BF31DED6C8500345102;
+			remoteInfo = "Keyframe-Sampler";
+		};
+		39C52C141DED6C8500345102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39C52BEC1DED6C8500345102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39C52BF31DED6C8500345102;
+			remoteInfo = "Keyframe-Sampler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39C52BF41DED6C8500345102 /* Keyframe-Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyframe-Sampler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C52BF71DED6C8500345102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39C52BF91DED6C8500345102 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39C52BFC1DED6C8500345102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39C52BFE1DED6C8500345102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39C52C011DED6C8500345102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39C52C031DED6C8500345102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C52C081DED6C8500345102 /* Keyframe-SamplerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyframe-SamplerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C52C0C1DED6C8500345102 /* Keyframe_SamplerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyframe_SamplerTests.swift; sourceTree = "<group>"; };
+		39C52C0E1DED6C8500345102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C52C131DED6C8500345102 /* Keyframe-SamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyframe-SamplerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C52C171DED6C8500345102 /* Keyframe_SamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyframe_SamplerUITests.swift; sourceTree = "<group>"; };
+		39C52C191DED6C8500345102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C52C281DED765F00345102 /* .valueObjectConfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .valueObjectConfig; sourceTree = "<group>"; };
+		39C52C291DED765F00345102 /* KFVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVector.h; sourceTree = "<group>"; };
+		39C52C2A1DED765F00345102 /* KFVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVector.m; sourceTree = "<group>"; };
+		39C52C2B1DED765F00345102 /* KFVector.value */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KFVector.value; sourceTree = "<group>"; };
+		39C52C2C1DED765F00345102 /* KFVectorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorAnimation.h; sourceTree = "<group>"; };
+		39C52C2D1DED765F00345102 /* KFVectorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorAnimation.m; sourceTree = "<group>"; };
+		39C52C2E1DED765F00345102 /* KFVectorAnimation.value */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KFVectorAnimation.value; sourceTree = "<group>"; };
+		39C52C2F1DED765F00345102 /* KFVectorAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorAnimationGroup.h; sourceTree = "<group>"; };
+		39C52C301DED765F00345102 /* KFVectorAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorAnimationGroup.m; sourceTree = "<group>"; };
+		39C52C311DED765F00345102 /* KFVectorAnimationGroup.value */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KFVectorAnimationGroup.value; sourceTree = "<group>"; };
+		39C52C321DED765F00345102 /* KFVectorAnimationKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorAnimationKeyValue.h; sourceTree = "<group>"; };
+		39C52C331DED765F00345102 /* KFVectorAnimationKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorAnimationKeyValue.m; sourceTree = "<group>"; };
+		39C52C341DED765F00345102 /* KFVectorAnimationKeyValue.value */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KFVectorAnimationKeyValue.value; sourceTree = "<group>"; };
+		39C52C351DED765F00345102 /* KFVectorFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorFeature.h; sourceTree = "<group>"; };
+		39C52C361DED765F00345102 /* KFVectorFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorFeature.m; sourceTree = "<group>"; };
+		39C52C371DED765F00345102 /* KFVectorFeature.value */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KFVectorFeature.value; sourceTree = "<group>"; };
+		39C52C381DED765F00345102 /* KFVectorFeatureKeyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorFeatureKeyFrame.h; sourceTree = "<group>"; };
+		39C52C391DED765F00345102 /* KFVectorFeatureKeyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorFeatureKeyFrame.m; sourceTree = "<group>"; };
+		39C52C3A1DED765F00345102 /* KFVectorFeatureKeyFrame.value */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KFVectorFeatureKeyFrame.value; sourceTree = "<group>"; };
+		39C52C3B1DED765F00345102 /* KFVectorGradientEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorGradientEffect.h; sourceTree = "<group>"; };
+		39C52C3C1DED765F00345102 /* KFVectorGradientEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorGradientEffect.m; sourceTree = "<group>"; };
+		39C52C3D1DED765F00345102 /* KFVectorGradientEffect.value */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KFVectorGradientEffect.value; sourceTree = "<group>"; };
+		39C52C3F1DED765F00345102 /* fb-copyright-header-comment.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "fb-copyright-header-comment.js"; sourceTree = "<group>"; };
+		39C52C411DED765F00345102 /* KFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFUtilities.h; sourceTree = "<group>"; };
+		39C52C421DED765F00345102 /* KFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFUtilities.m; sourceTree = "<group>"; };
+		39C52C441DED765F00345102 /* KFVectorAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorAnimationLayer.h; sourceTree = "<group>"; };
+		39C52C451DED765F00345102 /* KFVectorAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorAnimationLayer.m; sourceTree = "<group>"; };
+		39C52C461DED765F00345102 /* KFVectorBitmapFeatureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorBitmapFeatureLayer.h; sourceTree = "<group>"; };
+		39C52C471DED765F00345102 /* KFVectorBitmapFeatureLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorBitmapFeatureLayer.m; sourceTree = "<group>"; };
+		39C52C481DED765F00345102 /* KFVectorFeatureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorFeatureLayer.h; sourceTree = "<group>"; };
+		39C52C491DED765F00345102 /* KFVectorFeatureLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorFeatureLayer.m; sourceTree = "<group>"; };
+		39C52C4A1DED765F00345102 /* KFVectorFeatureLayerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorFeatureLayerInterface.h; sourceTree = "<group>"; };
+		39C52C4B1DED765F00345102 /* KFVectorGradientFeatureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorGradientFeatureLayer.h; sourceTree = "<group>"; };
+		39C52C4C1DED765F00345102 /* KFVectorGradientFeatureLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorGradientFeatureLayer.m; sourceTree = "<group>"; };
+		39C52C4D1DED765F00345102 /* KFVectorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorLayer.h; sourceTree = "<group>"; };
+		39C52C4E1DED765F00345102 /* KFVectorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorLayer.m; sourceTree = "<group>"; };
+		39C52C4F1DED765F00345102 /* KFVectorLayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorLayerHelper.h; sourceTree = "<group>"; };
+		39C52C501DED765F00345102 /* KFVectorLayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorLayerHelper.m; sourceTree = "<group>"; };
+		39C52C521DED765F00345102 /* KFVectorBezierPathsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorBezierPathsHelper.h; sourceTree = "<group>"; };
+		39C52C531DED765F00345102 /* KFVectorBezierPathsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorBezierPathsHelper.m; sourceTree = "<group>"; };
+		39C52C541DED765F00345102 /* KFVectorParsingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorParsingHelper.h; sourceTree = "<group>"; };
+		39C52C551DED765F00345102 /* KFVectorParsingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorParsingHelper.m; sourceTree = "<group>"; };
+		39C52C571DED765F00345102 /* KFVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFVectorView.h; sourceTree = "<group>"; };
+		39C52C581DED765F00345102 /* KFVectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFVectorView.m; sourceTree = "<group>"; };
+		39C52C741DED794C00345102 /* Keyframe-Sampler-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keyframe-Sampler-Bridging-Header.h"; sourceTree = "<group>"; };
+		39C52C761DED7A9A00345102 /* sample_logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_logo.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C52BF11DED6C8500345102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C52C051DED6C8500345102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C52C101DED6C8500345102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C52BEB1DED6C8500345102 = {
+			isa = PBXGroup;
+			children = (
+				39C52BF61DED6C8500345102 /* Keyframe-Sampler */,
+				39C52C0B1DED6C8500345102 /* Keyframe-SamplerTests */,
+				39C52C161DED6C8500345102 /* Keyframe-SamplerUITests */,
+				39C52BF51DED6C8500345102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C52BF51DED6C8500345102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C52BF41DED6C8500345102 /* Keyframe-Sampler.app */,
+				39C52C081DED6C8500345102 /* Keyframe-SamplerTests.xctest */,
+				39C52C131DED6C8500345102 /* Keyframe-SamplerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C52BF61DED6C8500345102 /* Keyframe-Sampler */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C261DED765F00345102 /* src */,
+				39C52BF71DED6C8500345102 /* AppDelegate.swift */,
+				39C52BF91DED6C8500345102 /* ViewController.swift */,
+				39C52BFB1DED6C8500345102 /* Main.storyboard */,
+				39C52BFE1DED6C8500345102 /* Assets.xcassets */,
+				39C52C001DED6C8500345102 /* LaunchScreen.storyboard */,
+				39C52C031DED6C8500345102 /* Info.plist */,
+				39C52C741DED794C00345102 /* Keyframe-Sampler-Bridging-Header.h */,
+				39C52C751DED7A9A00345102 /* Assets */,
+			);
+			path = "Keyframe-Sampler";
+			sourceTree = "<group>";
+		};
+		39C52C0B1DED6C8500345102 /* Keyframe-SamplerTests */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C0C1DED6C8500345102 /* Keyframe_SamplerTests.swift */,
+				39C52C0E1DED6C8500345102 /* Info.plist */,
+			);
+			path = "Keyframe-SamplerTests";
+			sourceTree = "<group>";
+		};
+		39C52C161DED6C8500345102 /* Keyframe-SamplerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C171DED6C8500345102 /* Keyframe_SamplerUITests.swift */,
+				39C52C191DED6C8500345102 /* Info.plist */,
+			);
+			path = "Keyframe-SamplerUITests";
+			sourceTree = "<group>";
+		};
+		39C52C261DED765F00345102 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C271DED765F00345102 /* DataModel */,
+				39C52C401DED765F00345102 /* Helpers */,
+				39C52C431DED765F00345102 /* Layers */,
+				39C52C511DED765F00345102 /* ParsingHelpers */,
+				39C52C561DED765F00345102 /* Views */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		39C52C271DED765F00345102 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C281DED765F00345102 /* .valueObjectConfig */,
+				39C52C291DED765F00345102 /* KFVector.h */,
+				39C52C2A1DED765F00345102 /* KFVector.m */,
+				39C52C2B1DED765F00345102 /* KFVector.value */,
+				39C52C2C1DED765F00345102 /* KFVectorAnimation.h */,
+				39C52C2D1DED765F00345102 /* KFVectorAnimation.m */,
+				39C52C2E1DED765F00345102 /* KFVectorAnimation.value */,
+				39C52C2F1DED765F00345102 /* KFVectorAnimationGroup.h */,
+				39C52C301DED765F00345102 /* KFVectorAnimationGroup.m */,
+				39C52C311DED765F00345102 /* KFVectorAnimationGroup.value */,
+				39C52C321DED765F00345102 /* KFVectorAnimationKeyValue.h */,
+				39C52C331DED765F00345102 /* KFVectorAnimationKeyValue.m */,
+				39C52C341DED765F00345102 /* KFVectorAnimationKeyValue.value */,
+				39C52C351DED765F00345102 /* KFVectorFeature.h */,
+				39C52C361DED765F00345102 /* KFVectorFeature.m */,
+				39C52C371DED765F00345102 /* KFVectorFeature.value */,
+				39C52C381DED765F00345102 /* KFVectorFeatureKeyFrame.h */,
+				39C52C391DED765F00345102 /* KFVectorFeatureKeyFrame.m */,
+				39C52C3A1DED765F00345102 /* KFVectorFeatureKeyFrame.value */,
+				39C52C3B1DED765F00345102 /* KFVectorGradientEffect.h */,
+				39C52C3C1DED765F00345102 /* KFVectorGradientEffect.m */,
+				39C52C3D1DED765F00345102 /* KFVectorGradientEffect.value */,
+				39C52C3E1DED765F00345102 /* remodel-plugins */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		39C52C3E1DED765F00345102 /* remodel-plugins */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C3F1DED765F00345102 /* fb-copyright-header-comment.js */,
+			);
+			path = "remodel-plugins";
+			sourceTree = "<group>";
+		};
+		39C52C401DED765F00345102 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C411DED765F00345102 /* KFUtilities.h */,
+				39C52C421DED765F00345102 /* KFUtilities.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		39C52C431DED765F00345102 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C441DED765F00345102 /* KFVectorAnimationLayer.h */,
+				39C52C451DED765F00345102 /* KFVectorAnimationLayer.m */,
+				39C52C461DED765F00345102 /* KFVectorBitmapFeatureLayer.h */,
+				39C52C471DED765F00345102 /* KFVectorBitmapFeatureLayer.m */,
+				39C52C481DED765F00345102 /* KFVectorFeatureLayer.h */,
+				39C52C491DED765F00345102 /* KFVectorFeatureLayer.m */,
+				39C52C4A1DED765F00345102 /* KFVectorFeatureLayerInterface.h */,
+				39C52C4B1DED765F00345102 /* KFVectorGradientFeatureLayer.h */,
+				39C52C4C1DED765F00345102 /* KFVectorGradientFeatureLayer.m */,
+				39C52C4D1DED765F00345102 /* KFVectorLayer.h */,
+				39C52C4E1DED765F00345102 /* KFVectorLayer.m */,
+				39C52C4F1DED765F00345102 /* KFVectorLayerHelper.h */,
+				39C52C501DED765F00345102 /* KFVectorLayerHelper.m */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		39C52C511DED765F00345102 /* ParsingHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C521DED765F00345102 /* KFVectorBezierPathsHelper.h */,
+				39C52C531DED765F00345102 /* KFVectorBezierPathsHelper.m */,
+				39C52C541DED765F00345102 /* KFVectorParsingHelper.h */,
+				39C52C551DED765F00345102 /* KFVectorParsingHelper.m */,
+			);
+			path = ParsingHelpers;
+			sourceTree = "<group>";
+		};
+		39C52C561DED765F00345102 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C571DED765F00345102 /* KFVectorView.h */,
+				39C52C581DED765F00345102 /* KFVectorView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39C52C751DED7A9A00345102 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				39C52C761DED7A9A00345102 /* sample_logo.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39C52BF31DED6C8500345102 /* Keyframe-Sampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C52C1C1DED6C8500345102 /* Build configuration list for PBXNativeTarget "Keyframe-Sampler" */;
+			buildPhases = (
+				39C52BF01DED6C8500345102 /* Sources */,
+				39C52BF11DED6C8500345102 /* Frameworks */,
+				39C52BF21DED6C8500345102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keyframe-Sampler";
+			productName = "Keyframe-Sampler";
+			productReference = 39C52BF41DED6C8500345102 /* Keyframe-Sampler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39C52C071DED6C8500345102 /* Keyframe-SamplerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C52C1F1DED6C8500345102 /* Build configuration list for PBXNativeTarget "Keyframe-SamplerTests" */;
+			buildPhases = (
+				39C52C041DED6C8500345102 /* Sources */,
+				39C52C051DED6C8500345102 /* Frameworks */,
+				39C52C061DED6C8500345102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C52C0A1DED6C8500345102 /* PBXTargetDependency */,
+			);
+			name = "Keyframe-SamplerTests";
+			productName = "Keyframe-SamplerTests";
+			productReference = 39C52C081DED6C8500345102 /* Keyframe-SamplerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39C52C121DED6C8500345102 /* Keyframe-SamplerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C52C221DED6C8500345102 /* Build configuration list for PBXNativeTarget "Keyframe-SamplerUITests" */;
+			buildPhases = (
+				39C52C0F1DED6C8500345102 /* Sources */,
+				39C52C101DED6C8500345102 /* Frameworks */,
+				39C52C111DED6C8500345102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39C52C151DED6C8500345102 /* PBXTargetDependency */,
+			);
+			name = "Keyframe-SamplerUITests";
+			productName = "Keyframe-SamplerUITests";
+			productReference = 39C52C131DED6C8500345102 /* Keyframe-SamplerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C52BEC1DED6C8500345102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ShinokiRyosei;
+				TargetAttributes = {
+					39C52BF31DED6C8500345102 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SLHYE76MHB;
+						ProvisioningStyle = Automatic;
+					};
+					39C52C071DED6C8500345102 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SLHYE76MHB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39C52BF31DED6C8500345102;
+					};
+					39C52C121DED6C8500345102 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SLHYE76MHB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39C52BF31DED6C8500345102;
+					};
+				};
+			};
+			buildConfigurationList = 39C52BEF1DED6C8500345102 /* Build configuration list for PBXProject "Keyframe-Sampler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39C52BEB1DED6C8500345102;
+			productRefGroup = 39C52BF51DED6C8500345102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C52BF31DED6C8500345102 /* Keyframe-Sampler */,
+				39C52C071DED6C8500345102 /* Keyframe-SamplerTests */,
+				39C52C121DED6C8500345102 /* Keyframe-SamplerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39C52BF21DED6C8500345102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C52C651DED765F00345102 /* KFVectorFeatureKeyFrame.value in Resources */,
+				39C52C5B1DED765F00345102 /* KFVector.value in Resources */,
+				39C52C021DED6C8500345102 /* LaunchScreen.storyboard in Resources */,
+				39C52BFF1DED6C8500345102 /* Assets.xcassets in Resources */,
+				39C52C591DED765F00345102 /* .valueObjectConfig in Resources */,
+				39C52C681DED765F00345102 /* fb-copyright-header-comment.js in Resources */,
+				39C52C611DED765F00345102 /* KFVectorAnimationKeyValue.value in Resources */,
+				39C52C5F1DED765F00345102 /* KFVectorAnimationGroup.value in Resources */,
+				39C52C771DED7A9A00345102 /* sample_logo.json in Resources */,
+				39C52C5D1DED765F00345102 /* KFVectorAnimation.value in Resources */,
+				39C52BFD1DED6C8500345102 /* Main.storyboard in Resources */,
+				39C52C671DED765F00345102 /* KFVectorGradientEffect.value in Resources */,
+				39C52C631DED765F00345102 /* KFVectorFeature.value in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C52C061DED6C8500345102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C52C111DED6C8500345102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C52BF01DED6C8500345102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C52C641DED765F00345102 /* KFVectorFeatureKeyFrame.m in Sources */,
+				39C52C6F1DED765F00345102 /* KFVectorLayerHelper.m in Sources */,
+				39C52C691DED765F00345102 /* KFUtilities.m in Sources */,
+				39C52C6C1DED765F00345102 /* KFVectorFeatureLayer.m in Sources */,
+				39C52C711DED765F00345102 /* KFVectorParsingHelper.m in Sources */,
+				39C52C621DED765F00345102 /* KFVectorFeature.m in Sources */,
+				39C52C661DED765F00345102 /* KFVectorGradientEffect.m in Sources */,
+				39C52C601DED765F00345102 /* KFVectorAnimationKeyValue.m in Sources */,
+				39C52C6B1DED765F00345102 /* KFVectorBitmapFeatureLayer.m in Sources */,
+				39C52BFA1DED6C8500345102 /* ViewController.swift in Sources */,
+				39C52C5E1DED765F00345102 /* KFVectorAnimationGroup.m in Sources */,
+				39C52C721DED765F00345102 /* KFVectorView.m in Sources */,
+				39C52C5A1DED765F00345102 /* KFVector.m in Sources */,
+				39C52C5C1DED765F00345102 /* KFVectorAnimation.m in Sources */,
+				39C52C701DED765F00345102 /* KFVectorBezierPathsHelper.m in Sources */,
+				39C52C6A1DED765F00345102 /* KFVectorAnimationLayer.m in Sources */,
+				39C52C6D1DED765F00345102 /* KFVectorGradientFeatureLayer.m in Sources */,
+				39C52C6E1DED765F00345102 /* KFVectorLayer.m in Sources */,
+				39C52BF81DED6C8500345102 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C52C041DED6C8500345102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C52C0D1DED6C8500345102 /* Keyframe_SamplerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39C52C0F1DED6C8500345102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C52C181DED6C8500345102 /* Keyframe_SamplerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39C52C0A1DED6C8500345102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C52BF31DED6C8500345102 /* Keyframe-Sampler */;
+			targetProxy = 39C52C091DED6C8500345102 /* PBXContainerItemProxy */;
+		};
+		39C52C151DED6C8500345102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39C52BF31DED6C8500345102 /* Keyframe-Sampler */;
+			targetProxy = 39C52C141DED6C8500345102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39C52BFB1DED6C8500345102 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C52BFC1DED6C8500345102 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39C52C001DED6C8500345102 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C52C011DED6C8500345102 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39C52C1A1DED6C8500345102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39C52C1B1DED6C8500345102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C52C1D1DED6C8500345102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SLHYE76MHB;
+				INFOPLIST_FILE = "Keyframe-Sampler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tv.shinoki.Keyframe-Sampler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ShinokiRyosei/Projects/Keyframe-Sampler/Keyframe-Sampler/Keyframe-Sampler-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		39C52C1E1DED6C8500345102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SLHYE76MHB;
+				INFOPLIST_FILE = "Keyframe-Sampler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tv.shinoki.Keyframe-Sampler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ShinokiRyosei/Projects/Keyframe-Sampler/Keyframe-Sampler/Keyframe-Sampler-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		39C52C201DED6C8500345102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SLHYE76MHB;
+				INFOPLIST_FILE = "Keyframe-SamplerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tv.shinoki.Keyframe-SamplerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyframe-Sampler.app/Keyframe-Sampler";
+			};
+			name = Debug;
+		};
+		39C52C211DED6C8500345102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SLHYE76MHB;
+				INFOPLIST_FILE = "Keyframe-SamplerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tv.shinoki.Keyframe-SamplerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyframe-Sampler.app/Keyframe-Sampler";
+			};
+			name = Release;
+		};
+		39C52C231DED6C8500345102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SLHYE76MHB;
+				INFOPLIST_FILE = "Keyframe-SamplerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tv.shinoki.Keyframe-SamplerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Keyframe-Sampler";
+			};
+			name = Debug;
+		};
+		39C52C241DED6C8500345102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SLHYE76MHB;
+				INFOPLIST_FILE = "Keyframe-SamplerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tv.shinoki.Keyframe-SamplerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Keyframe-Sampler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C52BEF1DED6C8500345102 /* Build configuration list for PBXProject "Keyframe-Sampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C52C1A1DED6C8500345102 /* Debug */,
+				39C52C1B1DED6C8500345102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C52C1C1DED6C8500345102 /* Build configuration list for PBXNativeTarget "Keyframe-Sampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C52C1D1DED6C8500345102 /* Debug */,
+				39C52C1E1DED6C8500345102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C52C1F1DED6C8500345102 /* Build configuration list for PBXNativeTarget "Keyframe-SamplerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C52C201DED6C8500345102 /* Debug */,
+				39C52C211DED6C8500345102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C52C221DED6C8500345102 /* Build configuration list for PBXNativeTarget "Keyframe-SamplerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C52C231DED6C8500345102 /* Debug */,
+				39C52C241DED6C8500345102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C52BEC1DED6C8500345102 /* Project object */;
+}
